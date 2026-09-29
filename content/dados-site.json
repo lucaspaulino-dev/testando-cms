@@ -20,6 +20,11 @@
       "nome": "Poltrona",
       "descricao": "Higienização completa com produtos hipoalergênicos.",
       "preco": "R$ 50"
+    },
+    {
+      "nome": "serviço teste",
+      "descricao": "aaaaaaaaaaaaaaa",
+      "preco": "12"
     }
   ]
 }
