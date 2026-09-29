@@ -1,0 +1,14 @@
+{
+  "name": "site-limpa-sofa",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "nuxt": "^3.13.0",
+    "typescript": "^5.5.0"
+  }
+}

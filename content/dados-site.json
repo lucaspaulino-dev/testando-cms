@@ -1,0 +1,25 @@
+{
+  "titulo": "Seu sofá como novo, sem sair de casa",
+  "descricao": "Higienização profissional de sofás e estofados, com produtos que eliminam ácaros, manchas e odores.",
+  "preco_base": "R$ 80",
+  "endereco": "Atendimento em toda a região de Birigui/SP",
+  "telefone": "18999990000",
+  "horario": "Seg a Sáb, 8h às 18h",
+  "servicos": [
+    {
+      "nome": "Sofá 2 lugares",
+      "descricao": "Higienização completa com produtos hipoalergênicos.",
+      "preco": "R$ 80"
+    },
+    {
+      "nome": "Sofá 3 lugares",
+      "descricao": "Higienização completa com produtos hipoalergênicos.",
+      "preco": "R$ 110"
+    },
+    {
+      "nome": "Poltrona",
+      "descricao": "Higienização completa com produtos hipoalergênicos.",
+      "preco": "R$ 50"
+    }
+  ]
+}

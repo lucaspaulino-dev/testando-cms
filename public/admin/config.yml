@@ -1,0 +1,28 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "dados_site"
+    label: "Dados do Site"
+    files:
+      - file: "content/dados-site.json"
+        label: "Informações Gerais"
+        name: "geral"
+        fields:
+          - { label: "Título de destaque", name: "titulo", widget: "string" }
+          - { label: "Descrição", name: "descricao", widget: "text" }
+          - { label: "Preço a partir de", name: "preco_base", widget: "string" }
+          - { label: "Endereço", name: "endereco", widget: "string" }
+          - { label: "Telefone/WhatsApp (só números, com DDD)", name: "telefone", widget: "string" }
+          - { label: "Horário de funcionamento", name: "horario", widget: "string" }
+          - label: "Serviços"
+            name: "servicos"
+            widget: "list"
+            fields:
+              - { label: "Nome", name: "nome", widget: "string" }
+              - { label: "Descrição", name: "descricao", widget: "text" }
+              - { label: "Preço", name: "preco", widget: "string" }
